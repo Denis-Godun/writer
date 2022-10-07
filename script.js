@@ -30,7 +30,7 @@ typewriter = () => {
     quoteArray[index].substring(0, textPosition) + "<span>\u25AE</span>";
 
   if (textPosition++ != quoteArray[index].length) {
-    setTimeout("typewriter()", 100);
+    setTimeout("typewriter()", 300);
   } else {
     quoteArray[index] = " ";
     setTimeout("typewriter()", 4000);
